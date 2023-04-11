@@ -1,0 +1,179 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "templates/Issue.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "projects/cloud backup",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "projects/cloud backup/issues",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "type": {
+                "hide": true
+              },
+              "name": {
+                "width": 242
+              },
+              "tags": {
+                "hide": true
+              }
+            },
+            "sortField": "priority",
+            "sortAsc": true,
+            "orderFields": [
+              "name",
+              "status",
+              "priority"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "type",
+                "operator": "is",
+                "value": "issue"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "53b7b46d-e8ca-4374-9d62-f50a2bcd597f",
+          "name": "Issues",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "includeFields": [
+              "priority"
+            ],
+            "priorityField": "priority"
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "type",
+                "operator": "is",
+                "value": "issue"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "69168e75-0e84-4828-a213-696a9016425c",
+          "name": "Kanban",
+          "type": "board"
+        }
+      ],
+      "id": "f1ca9de7-9344-4b52-a2be-68a0520038d3",
+      "name": "Cloud backup"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "config/templates/Issue.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "projects/general",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "projects/general/issues",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "type": {
+                "hide": true
+              },
+              "name": {
+                "width": 233
+              }
+            },
+            "sortField": "priority",
+            "sortAsc": true,
+            "orderFields": [
+              "name",
+              "status",
+              "priority"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "ecf4a785-bf96-460b-8333-73fb824adc9a",
+          "name": "Issues",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "priorityField": "priority",
+            "columns": {
+              "Backlog": {
+                "weight": 0
+              },
+              "To-do": {
+                "weight": 1
+              },
+              "In progress": {
+                "weight": 2
+              }
+            },
+            "includeFields": [
+              "status",
+              "priority"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "id": "5a86f504-bb06-4bab-abd6-a0bdc750ad5c",
+          "name": "Kanban",
+          "type": "board"
+        }
+      ],
+      "id": "70573f7c-c7b5-4af1-88f8-9f8bede43f6b",
+      "name": "General"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": []
+  }
+}

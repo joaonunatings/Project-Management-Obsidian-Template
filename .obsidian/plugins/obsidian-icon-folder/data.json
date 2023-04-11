@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "SiCsswizardry",
+      "RiCalendarLine",
+      "SiJavascript",
+      "FasGears",
+      "RiTodoLine"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "journal": "LiBookmark",
+  "projects": "RiTodoLine",
+  "Dashboard.md": "IbDashboard",
+  "config/templates": "LiLayoutTemplate",
+  "config": "FasGears",
+  "config/scripts": "SiJavascript",
+  "Calendar.md": "RiCalendarLine"
+}

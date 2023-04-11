@@ -1,0 +1,9 @@
+{
+  "folderNoteHide": true,
+  "folderNoteType": "inside",
+  "folderNoteName": "_about_",
+  "folderNoteKey": "ctrl",
+  "folderNoteAutoRename": true,
+  "folderDelete2Note": false,
+  "folderNoteStrInit": "## Overview\n\n## Tasks\n```dataviewjs\nawait dv.view(\"taskido\", {\npages: '\"projects\"',\ndailyNoteFolder: \"journal\",\nforward: true,\noptions: \"noUnplanned noQuickEntry\",\n})\n```\n\n## Folders\n{{FOLDER_BRIEF_LIVE}} "
+}

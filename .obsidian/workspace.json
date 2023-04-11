@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "9c5bdf45d9a73cea",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9ce76b009bededa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e06926d1531ab8d2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74f830162cab8ecf",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2937af992d65cf1",
+        "type": "tabs",
+        "dimension": 53.125,
+        "children": [
+          {
+            "id": "d43c02526318ed65",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9e1d7db94b259b28",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d929955fc78ca5c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "a6f57eea3c36f686",
+        "type": "tabs",
+        "dimension": 46.875,
+        "children": [
+          {
+            "id": "35643ad14cba0888",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354.5
+  },
+  "right": {
+    "id": "47ed28edfc8e5e56",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ec5128cef71e5e4",
+        "type": "tabs",
+        "dimension": 45.15503875968992,
+        "children": [
+          {
+            "id": "d39ce732d221c748",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "pinned": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "36f9a1d8ef2f390b",
+        "type": "tabs",
+        "dimension": 54.84496124031008,
+        "children": [
+          {
+            "id": "e9dc8c4045ac48d7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 739.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "homepage:Open homepage": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "d39ce732d221c748",
+  "lastOpenFiles": [
+    "journal/2023-04-11.md",
+    "journal/README.md",
+    "Dashboard.md",
+    "New Text Document.txt",
+    "projects/general/issues/Contract.md",
+    "projects/general/issues/Computer.md",
+    "projects/cloud backup/issues/Backup server.md",
+    "projects/cloud backup/issues/Backup Datamanagement service.md",
+    "projects/general/issues/QPRO.md",
+    "journal/2023-04-24.md",
+    "Calendar.md",
+    "projects/cloud backup/issues/Cloud backup.md",
+    "projects/cloud backup/issues/Datamanagement UI.md",
+    "projects/general/issues/Waveware.md",
+    "projects/general/general.md",
+    "projects/cloud backup/issues/GCP backup bucket.md",
+    "journal/2023-04-10.md",
+    "projects/cloud backup/cloud backup.md",
+    "journal/2023-04-06.md",
+    "projects/general/issues/Obsidian project management.md",
+    "config/templates/Daily.md",
+    "config/templates/Issue.md",
+    "projects/general/issues/Untitled.md",
+    "config/scripts/templater",
+    "Untitled.md",
+    "projects/general/issues/Untitled note 1.md",
+    "projects/general/issues/Untitled note.md",
+    "projects/general/issues/Untitled note 2.md",
+    "config/scripts/templater/pinNote.js",
+    "config/scripts/custom/New Text Document.txt",
+    "config/styles/buttons.css",
+    "config/styles/New Text Document.txt",
+    "config/scripts/Untitled",
+    "config/styles",
+    "config/scripts/custom",
+    "Untitled",
+    "Untitled.canvas",
+    "projects/cloud backup/files/diagram.svg",
+    "Untitled Diagram.svg"
+  ]
+}

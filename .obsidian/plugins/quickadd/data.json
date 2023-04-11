@@ -1,0 +1,111 @@
+{
+  "choices": [
+    {
+      "id": "e7303394-5d5f-452f-a1eb-c3fa4ab80787",
+      "name": "Task creation",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "418a4074-0bd0-49e4-8a43-c716590af920",
+          "name": "Add task",
+          "type": "Macro",
+          "command": true,
+          "macroId": "10a1e2ac-b496-4a93-889e-a7c7a7178979"
+        },
+        {
+          "id": "b1b5862c-bc8f-4f25-ac12-084cd83b4f84",
+          "name": "Capture task",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "{{VALUE:PATH}}",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{VALUE:TASK}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## Tasks",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "fea93c61-7a66-4efd-89e3-b580235a4e29",
+      "name": "Create project",
+      "type": "Template",
+      "command": false,
+      "templatePath": "",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "Add task",
+      "id": "10a1e2ac-b496-4a93-889e-a7c7a7178979",
+      "commands": [
+        {
+          "name": "addTask",
+          "type": "UserScript",
+          "id": "e9a5f9c6-7e81-441e-b118-99efd3a4dd7b",
+          "path": "config/scripts/custom/addTask.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": false,
+  "version": "0.19.4",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

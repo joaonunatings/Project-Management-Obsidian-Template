@@ -1,0 +1,13 @@
+{
+  "showInlineTitle": true,
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "defaultViewMode": "source",
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "spellcheck": true,
+  "attachmentFolderPath": "/",
+  "userIgnoreFilters": [
+    "config/"
+  ]
+}
